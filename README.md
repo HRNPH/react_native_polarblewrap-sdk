@@ -19,15 +19,34 @@ implemented by following this [method](https://morioh.com/p/4ac72069eeca)
 
 `$ react-native link react-native-polarblewrap-sdk`
 
-### Manual installation
+# react-native-polarblewrap-sdk
 
+wrapper for polar ppg native library
 
+## Installation
+
+```sh
+npm install react-native-polarblewrap-sdk
+```
 
 ## Usage
-```javascript
-import RNPolarblewrapSdk from 'react-native-polarblewrap-sdk';
 
-// TODO: What to do with the module?
-RNPolarblewrapSdk;
+```js
+import { multiply } from 'react-native-polarblewrap-sdk';
+
+// ...
+
+const result = await multiply(3, 7);
 ```
-  
+
+## Contributing
+
+See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+
+## License
+
+MIT
+
+---
+
+Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
